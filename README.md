@@ -1,6 +1,4 @@
-# c-data-structs
-
-Abstract Data Structures
+# Abstract Data Structures
 ------------------------
 
 |             | Linear | Non-Linear |
