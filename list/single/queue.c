@@ -10,17 +10,17 @@ Queue newQueue() {
     return queue;
 }
 
-QueueNode newQueueNode(void* data) {
+QueueNode newQueueNode(void* value) {
     QueueNode queueNode = malloc(sizeof(struct queueNode));
     queueNode->next = NULL;
-    queueNode->data = data;
+    queueNode->value = value;
     return queueNode;
 }
 
 
 
-void queueAddNode(Queue queue, void* data) {
-    QueueNode newNode = newQueueNode(data);
+void queueAddNode(Queue queue, void* value) {
+    QueueNode newNode = newQueueNode(value);
     if (queue->numNodes == 0) {
         queue->head = newNode;
         queue->tail = newNode;
@@ -36,7 +36,7 @@ void* queuePop(Queue queue) {
     void* value;
     QueueNode currNode = queue->head;
     if (currNode->next == NULL) {
-        value = currNode->data;
+        value = currNode->value;
         queue->head = NULL;
         queue->tail = NULL;
     } else {
@@ -44,7 +44,7 @@ void* queuePop(Queue queue) {
         queue->tail = currNode;
         currNode = currNode->next;
         queue->tail->next = NULL;
-        value = currNode->data;
+        value = currNode->value;
     }
     deleteQueueNode(currNode);
     queue->numNodes--;
