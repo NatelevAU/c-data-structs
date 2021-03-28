@@ -8,6 +8,7 @@
 **Container Toggles**
 - Count
 - Tail
+- Current
 
 **Node Toggles**
 - Parent
