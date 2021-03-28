@@ -1,13 +1,15 @@
 # Abstract Data Structures
 --------------------------
 
-|                 | Linear | Non-Linear |
-| -----------     | ------ | ---------- |
-| **Ordered**     | List   | Tree       |
-| **Non-Ordered** | Hash   | Graph      |
+|                 | **Linear** | **Non-Linear** |
+| -----------     | ---------- | -------------- |
+| **Ordered**     | List       | Tree           |
+| **Non-Ordered** | Hash       | Graph          |
 
 ## Lists
+
 Single
+
 Double
 
 ## Trees
@@ -21,10 +23,12 @@ Double
 - Weighted vs Non-Weighted
 
 
+
+
 # Copyright
 -----------
 
-Copyright (c) 2021, Nathan Levy
+Copyright (c) 2021, Nathan Levy.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
