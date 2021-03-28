@@ -1,5 +1,5 @@
 # Abstract Data Structures
-------------------------
+--------------------------
 
 |                 | Linear | Non-Linear |
 | -----------     | ------ | ---------- |
@@ -21,8 +21,8 @@ Double
 - Weighted vs Non-Weighted
 
 
-Copyright
----------
+# Copyright
+-----------
 
 Copyright (c) 2021, Nathan Levy
 All rights reserved.
