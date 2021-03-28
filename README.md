@@ -1,10 +1,10 @@
 # Abstract Data Structures
 ------------------------
 
-|             | Linear | Non-Linear |
-| ----------- | ------ | ---------- |
-| Ordered     | List   | Tree       |
-| Non-Ordered | Hash   | Graph      |
+|                 | Linear | Non-Linear |
+| -----------     | ------ | ---------- |
+| **Ordered**     | List   | Tree       |
+| **Non-Ordered** | Hash   | Graph      |
 
 ## Lists
 Single
