@@ -6,7 +6,8 @@ OBJS = *.c
 
 CC = gcc
 CFLAGS = -I . \
-		 -I ./include
+		 -I ./include \
+		 -I ./util
 
 LDLIBS = -lm
 
